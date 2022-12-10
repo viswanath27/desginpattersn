@@ -1,0 +1,31 @@
+Definition
+    - This is more of creating a new classes based on generic classes 
+    - This will be useful for big projects when we want to add a lot of small changing functionality 
+    - Bridge is like a birdge between the abstract classes towards implementation classes 
+    - Have a generic abstract class and will have implementation call later 
+    - The main point here is to have abstraction and implementation 
+    - Functionality is distributed between Abstraction and implementation 
+    - Implementation will have core logic implementation which can be platform specific 
+    - Abstraction will refer implementation but just has the high level view of what can be done 
+    - This will be used in case where you want to abstract the feature set in this Abstract class and continue for its implementation in different platforms accordingly
+    - There should be one abstract class and multiple implementation classes for each platform may be 
+
+Why do we need it 
+    - This will be needed in case where there are lot of sub functionalities 
+    - 
+
+Where do we use it 
+    - This can be used for continous update of adding new functionality to the code 
+
+Where we should not use it 
+    - 
+
+Problems and Advantages 
+    - 
+
+examples
+    - Best simple examples could be performing the operations in different ways while the features remain the same at very top level 
+    - features are abstract level (vs) implementation will be different for each type leading to some results 
+
+Questions
+    - 

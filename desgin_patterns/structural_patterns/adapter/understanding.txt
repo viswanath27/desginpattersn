@@ -1,0 +1,23 @@
+Definition
+    - This is like converting the interface of one object so that another object can understand it 
+    - This is more like taking to different classes and ensuring that they support each other in data exchange 
+    - 
+
+Why do we need it 
+    - This will be needed if we have code written at different times and want to adjust the code with some existing classes 
+    - 
+
+Where do we use it 
+    - This can be used for continous update of adding new functionality to the code 
+
+Problems and Advantages 
+    - Some times we end modifying a lot in an effort of making this possible 
+
+examples
+    - Will come up with some of the projects where this is useful 
+    - Will have atleast 5 examples for each one of this patterns
+    - This can be used for different mechanisms to handle the data exhange for the S3
+        - Meta data which is generally there for the storage remains same, but when it changes from S3 to some other storgae, this should be take care appropriately
+
+Questions
+    - What if we have multiple interfaces which needs to be supported 
